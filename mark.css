@@ -1,0 +1,38 @@
+/* Made By Sumit Vishwakarma */
+body{
+    background-color:  rgba(39, 23, 23, 0.763);
+    background-image: url(https://res.cloudinary.com/jerrick/image/upload/d_642250b563292b35f27461a7.png,f_jpg,fl_progressive,q_auto,w_1024/prq9m5uhhmjjtfnlay6b.jpg);
+    background-size: 100% ;
+}
+
+.centre{
+    text-align: center;
+    text-transform: uppercase;
+    color: grey;
+    
+}
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 90vw; 
+    height: 50vh; 
+    overflow: hidden; 
+}
+
+.container img{
+
+    width: 10%;
+    height:100%;
+    object-fit: cover;
+    border-radius:10px;
+    border:2px solid rgba(255,255,255,0.684);
+    transition: all ease-in-out 0.5s;
+}
+
+.container img:hover{
+    width:20%;
+
+}
