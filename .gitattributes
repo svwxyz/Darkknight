@@ -1,0 +1,5 @@
+# Ignore files that shouldn't count
+*.html linguist-language=Ignore
+*.css linguist-language=Ignore
+*.json linguist-language=Ignore
+*.ipynb linguist-language=Python
